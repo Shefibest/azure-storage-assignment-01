@@ -6,7 +6,7 @@ Definition of Azure Storage Account
 An Azure storage account contains all of your Azure Storage data objects: blobs, files, queues, and tables. 
 The storage account provides a unique namespace for your Azure Storage data that's accessible from anywhere in the world over HTTP or HTTPS.
 
-# STEPS TO CREATE A STORAGE ACCOUNT ON AZURE PORTAL VIA CLI
+# Steps to Create a Storage Account on Azure Portal via CLI command
 
 1. Create a resource group for your storage account using the az group create command. 
 For example: az group create --name myResourceGroup --location eastus
@@ -17,7 +17,7 @@ For example: az group create --name myResourceGroup --location eastus
 
 4. Congratulatios! you have successfully created a resource group and a storage account via the CLI command.
 
-  # STEPS TO DELETE THE RESOURCES AND STORAGE ACCOUNT VIA THE CLI COMMAND
+  # Steps to delete the Resource  and Storage Account  via the CLI command
 
 1.  To delete the storage account created via CLI, you can use the az storage account delete command.
   You need to specify the name of the storage account and the resource group that it belongs to. 
